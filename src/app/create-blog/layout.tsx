@@ -1,4 +1,5 @@
 
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 function BlogLayout({ children }: {children: React.ReactNode}) {
@@ -6,6 +7,7 @@ function BlogLayout({ children }: {children: React.ReactNode}) {
             <div>
                 <Header />
                 {children}
+                <Footer />
             </div>
     )
 }
